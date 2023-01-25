@@ -21,10 +21,10 @@ function App() {
   };
 
   return (
-    <div>
+    <>
       <AddUser onSaveUser={saveNewUser}/>
       <UsersList users={usersList}/>
-    </div>
+    </>
   );
 }
 
